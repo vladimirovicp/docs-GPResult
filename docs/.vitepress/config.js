@@ -4,7 +4,13 @@ module.exports = {
     lang: 'ru-RU',
     title: 'GPResult',
     head: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }]
+        ['link', 
+            { 
+                rel: 'icon',
+                type: 'image/x-icon',
+                href: '/favicon.ico' 
+            }
+        ]
     ],
     themeConfig: {
         // параметры темы
